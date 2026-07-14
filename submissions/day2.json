@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Subiksha",
+  "github": "subiksha456",
+  "lab1_scenario": "C",
+  "lab1_prompt": "You are an HR onboarding chatbot for a company. Draft a chatbot reply answering a new campus recruit's question about laptop provisioning. The recruit wants to know when they will receive their work laptop. Laptops are usually shipped before the joining date or provided on the first day, depending on location and onboarding schedule. If there is any delay, the recruit should contact the IT Help Desk or onboarding coordinator. Keep the reply between 80–120 words. Clearly explain the provisioning process, mention possible delivery or pickup, avoid making guarantees about exact dates, and do not use overly casual language. Use a helpful, professional, welcoming, and reassuring tone. Output the response as a single chatbot reply in one short paragraph.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "Let's calculate it step by step:\n\nStarting stock: 4,200\nAfter sending out 850:\n4,200−850=3,350\nHold 6% of the remaining stock:\n3,350×0.06=201 units held\nAvailable after the hold:\n3,350−201=3,149\nAdd the restock of 1,150:\n3,149+1,150=4,299\n\nAnswer: 4,299 Galaxy Buds units are available for sale by the end of the day.",
+  "lab2_cot_prompt": "Work through this problem step by step.\n\nStart with an inventory of 4,200 Galaxy Buds.\nSubtract the 850 units shipped out and show the remaining inventory.\nCalculate 6% of the remaining inventory to determine the number of units being held, then subtract those held units and show the available inventory.\nAdd the restocked 1,150 units to the available inventory and show the updated total.\nState the final number of Galaxy Buds available for sale by the end of the day.",
+  "lab2_cot_output_summary": "Let's work through it step by step.\n\n**Step 1: Start with the inventory**\n\n* Initial inventory: **4,200** Galaxy Buds\n\n**Step 2: Subtract the units shipped**\n\n* Units shipped: **850**\n* Remaining inventory: **4,200 − 850 = 3,350** units\n\n**Step 3: Calculate and subtract the held units**\n\n* Hold back **6%** of the remaining inventory:\n\n  * (3,350 \\times 0.06 = 201) units held\n* Available inventory after the hold:\n\n  * **3,350 − 201 = 3,149** units\n\n**Step 4: Add the restocked units**\n\n* Restocked units: **1,150**\n* Updated available inventory:\n\n  * **3,149 + 1,150 = 4,299** units\n\n**Final answer:** **4,299 Galaxy Buds** are available for sale by the end of the day.",
+  "better_approach": "cot",
+  "stretch_done": false,
+  "stretch_react_prompt": "",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:39:14.063Z"
+}
