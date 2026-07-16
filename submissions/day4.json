@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "SUBIKSHA",
+  "github": "subiksha456",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Reliability",
+      "justification": "As the AI generates a info which doesn't exist ,so it come under the category misinformation and we can't rely on it"
+    },
+    {
+      "id": "B",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "A s the company itself or the employee made it careless didn't check the real data"
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Privacy",
+      "justification": "As the info isn't real i keep it under misinformation category and the video of a person is made without their concern which affects their privacy"
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Inclusiveness",
+      "justification": "As the system give biased response which deny applicants from women's colleges as a part of the system i would say it is biased"
+    },
+    {
+      "id": "E",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Inclusiveness",
+      "justification": "It shows discrimination and exclude people"
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Safety",
+      "justification": "it has fake info and doesn't give safety"
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Amazon AI Recruiting Tool",
+  "stretch_failure_type": "Bias/Discrimination",
+  "stretch_principle": "Fairness",
+  "stretch_notes": "Amazon developed an AI hiring system to screen job applicants, but it learned from historical hiring data that was dominated by male candidates. As a result, the model downgraded resumes containing terms like \"women's\" (e.g., \"women's chess club\") and favored male applicants. Amazon eventually scrapped the system because it could not reliably eliminate the gender bias.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:26:01.074Z"
+}
